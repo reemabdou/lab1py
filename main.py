@@ -6,10 +6,10 @@
 temperature = float(input("Enter temperature: "))
 unit = input("Enter unit in F/f or C/c: ")
 if unit == "F" or unit == "f":
- tcelsius = float((temperature - 32) * (5/9))
- print (f"{temperature}° in Fahrenheit is equivalent to {tcelsius}° Celsius. \n")
-elif unit == "C" or unit == "c": 
+  tcelsius = float((temperature - 32) * (5/9))
+  print (f"{temperature}° in Fahrenheit is equivalent to {tcelsius}° Celsius. \n")
+elif unit == "C" or unit == "c":
   tfahrenheit = float(temperature * 9/5 + 32)
   print (f"{temperature}° in Celsius is equivalent to {tfahrenheit}° Fahrenheit. \n")
-else: 
+else:
   print(f"Invalid unit({unit}).")
