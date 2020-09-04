@@ -3,7 +3,7 @@
 # Collaborator: Tristan Zanowic tsz5030@psu.edu
 # Collaborator: Andrew Torri abt5506@psu.edu
 
-temperature = float(input("Enter temperature:"))
+temperature = float(input("Enter temperature: "))
 unit = input("Enter unit in F/f or C/c: ")
 if unit == "F" or unit == "f":
  tcelsius = float((temperature - 32) * (5/9))
