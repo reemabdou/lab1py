@@ -10,6 +10,6 @@ if unit == "F" or unit == "f":
    print (f"{temperature}° in Fahrenheit is equivalent to{tcelsius}° Celsius.")
 elif unit == "C" or unit == "c":
    tfahrenheit = float(temperature * 9/5 + 32)
-   print (f"{temperature}° in Celsius is equivalent to{tfahrenheit}° Fahrenheit.")
+   print (f"{temperature}° in Celsius is equivalent to {tfahrenheit}° Fahrenheit.")
 else:
   print(f"Invalid unit({unit}).")
